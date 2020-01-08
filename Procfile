@@ -1,1 +1,1 @@
-web: gunicorn app.run_app:ner_app --bind 0.0.0.0:${PORT}
+web: gunicorn app.run_app:ner-server-prediction --bind 0.0.0.0:${PORT}
